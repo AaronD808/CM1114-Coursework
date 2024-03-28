@@ -1,0 +1,108 @@
+body {
+    background-color: #808080;
+}
+
+header {
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.gallery-img {
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 400px;
+    min-height: 400px;
+}
+
+#img-gallery {
+    padding-top: 10px;
+}
+
+#img-gallery .row {
+    margin-bottom: 10px;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+h1 {
+    display: inline;
+}
+
+h3 {
+    font-size: 24pt;
+}
+
+p {
+    font-size: 10pt;
+}
+
+main {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #FF0000;
+    border-radius: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    border: 2px solid #FFFFFF; /* Accent Colour */
+    background-color: #FF0000; /* Main Colour */
+    list-style-type: none;
+    float: left;
+    width: 15%;
+    padding: 16px;
+}
+
+nav li a {
+    color: #FFFFFF; /* Secondary Text Colour */
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #8B0000; /* Selection Colour */
+}
+
+.active {
+    background-color: #FFFFFF; /* Interactive Feature Colour */
+}
+
+table {
+    font-family: Verdana, Geneva, sans-serif;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 2px solid #F0F0F0;
+}
+
+table tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+table tr:hover {
+    background-color: #FF0000; /* Main Colour */
+}
+
+table th {
+    background-color: #FF0000; /* Main Colour */
+    color: white;
+}
