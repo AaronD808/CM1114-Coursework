@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.removeEventListener('click', startAudio);
             hasAlreadyClicked = true;
             isPlaying = true;
-            musicButton.src = "./images/musicenabled.png";
+            musicButton.src = "/images/musicenabled.png";
         }
     }
 

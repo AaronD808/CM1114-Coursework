@@ -10,13 +10,6 @@ body {
     background-color: grey;
 }
 
-nav {
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    margin-top: 65px; /* Add a top margin */
-}
-
 header {
     background-color: #fff;
     border-top-left-radius: 10px;
@@ -62,26 +55,27 @@ p {
 
 #product-description{
     font-size: x-large;
+    padding-right: 20px;
 }
 
 #title {
     display: block;
-    text-align: center; /* Centers the title */
-    font-size: 2.5em;  /* Makes the title larger */
-    margin-bottom: 20px; /* Adds space below the title */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
   
 #page-info {
-    width: 60%; /* Limits the width for better readability */
-    margin: 20px auto; /* Centers the paragraph horizontally */
-    text-align: center; /* Centers the text within the paragraph */
-    font-size: 1.1em;  /* Slightly increase the font size */
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.1em;
 }
 
 main {
     background-color: #fff;
     border-radius: 10px;
-    padding-top: 140px; /* Add top padding */
+    padding-top: 140px;
 }
 
 aside {
@@ -96,6 +90,13 @@ footer {
 
 footer p {
     font-size: x-large;
+}
+
+nav {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    margin-top: 65px; /* Add a top margin */
 }
 
 nav ul {
@@ -137,9 +138,15 @@ nav li:hover {
 
 #list-image {
     display: inline;
-    margin-left: 10px; /* Adjust margin for desired spacing */
+    margin-left: 10px;
     padding-bottom: 10px;
 }
+
+#product-image { 
+    padding-right: 20px;
+    max-width: 100%;
+    height: auto; 
+  }
   
 h2 {
     display: inline;
