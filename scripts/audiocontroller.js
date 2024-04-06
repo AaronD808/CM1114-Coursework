@@ -18,10 +18,10 @@ musicButton.addEventListener("click", function() {
   isPlaying = !isPlaying; 
   if (isPlaying == false) {
     audioElement.pause();
-    musicButton.src = "../images/musicdisabled.png";
+    musicButton.src = "/images/musicdisabled.png";
   } else {
     audioElement.play();
-    musicButton.src = "../images/musicenabled.png";
+    musicButton.src = "/images/musicenabled.png";
   }
 });
 
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.removeEventListener('click', startAudio);
             hasAlreadyClicked = true;
             isPlaying = true;
-            musicButton.src = "../images/musicenabled.png";
+            musicButton.src = "/images/musicenabled.png";
         }
     }
 
