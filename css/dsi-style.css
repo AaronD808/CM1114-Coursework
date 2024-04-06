@@ -1,0 +1,146 @@
+/* Nintendo DSi Shop Style CSS */
+/* In seperate file to reduce main css file clutter */
+
+@font-face {
+    font-family: NDS-BIOS;
+    src: url(../fonts/Nintendo-DS-BIOS.ttf);
+}
+
+body {
+    background-color: grey;
+}
+
+nav {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    margin-top: 65px; /* Add a top margin */
+}
+
+header {
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+header h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.gallery-img {
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 400px;
+    min-height: 400px;
+}
+
+#img-gallery {
+    padding-top: 10px;
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+}
+
+h1 {
+    display: inline;
+}
+
+h3 {
+    font-size: 24pt;
+}
+
+p {
+    font-size: 10pt;
+}
+
+#product-description{
+    font-size: x-large;
+}
+
+#title {
+    display: block;
+    text-align: center; /* Centers the title */
+    font-size: 2.5em;  /* Makes the title larger */
+    margin-bottom: 20px; /* Adds space below the title */
+}
+  
+#page-info {
+    width: 60%; /* Limits the width for better readability */
+    margin: 20px auto; /* Centers the paragraph horizontally */
+    text-align: center; /* Centers the text within the paragraph */
+    font-size: 1.1em;  /* Slightly increase the font size */
+}
+
+main {
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 140px; /* Add top padding */
+}
+
+aside {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #00aeef;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: x-large;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    border: 2px solid #fff;
+    background-color: #00aeef;
+    list-style-type: none;
+    float: left;
+    width: 14.28%;
+    padding: 16px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #0086b3;
+}
+
+.music-control {
+    position: fixed; 
+    top: 15px;      
+    right: 15px;    
+    z-index: 1000;  
+}
+  
+#musicButton {
+    width: 40px; 
+    height: 40px;
+    cursor: pointer;
+}
+
+#list-image {
+    display: inline;
+    margin-left: 10px; /* Adjust margin for desired spacing */
+    padding-bottom: 10px;
+}
+  
+h2 {
+    display: inline;
+}

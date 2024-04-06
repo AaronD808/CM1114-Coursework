@@ -106,3 +106,74 @@ table th {
     background-color: #FF0000; /* Main Colour */
     color: white;
 }
+
+.contact-container {
+    display: flex;
+}
+
+#right-col {
+    width: 55%; 
+    overflow: hidden;
+    margin: 20px;
+}
+
+#right-col iframe {
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#left-col {
+    flex: 0 0 45%;
+    margin-right: 20px;
+}
+
+
+#left-col {
+    border: 1px solid #000000;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="comment"],
+input[type="file"] {
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #8B0000;
+}
