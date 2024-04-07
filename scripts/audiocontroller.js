@@ -18,20 +18,10 @@ musicButton.addEventListener("click", function() {
   isPlaying = !isPlaying; 
   if (isPlaying == false) {
     audioElement.pause();
-    if(musicButton.src.includes("musicenabled")){
-      musicButton.src = "./images/musicdisabled.png";
-    }
-    else {
-      musicButton.src = "./images/404/annoying.png";
-    }
+    musicButton.src = "./images/musicdisabled.png";
   } else {
     audioElement.play();
-    if(musicButton.src.includes("musicdisabled")){
-      musicButton.src = "./images/musicenabled.png";
-    }
-    else {
-      musicButton.src = "./images/404/annoying.gif";
-    }
+    musicButton.src = "./images/musicenabled.png";
   }
 });
 
@@ -46,12 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.removeEventListener('click', startAudio);
             hasAlreadyClicked = true;
             isPlaying = true;
-            if(musicButton.src.includes("musicdisabled")){
-              musicButton.src = "./images/musicenabled.png";
-            }
-            else {
-              musicButton.src = "./images/404/annoying.gif";
-            }
+            musicButton.src = "/images/musicenabled.png";
         }
     }
 

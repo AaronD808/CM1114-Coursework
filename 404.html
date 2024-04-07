@@ -1,9 +1,12 @@
+<!-- THIS IS NOT CUSTOM PAGE #2!!!, I added this just for fun. -->
+<!-- As such it may contain css and javascript in the html file because im too lazy to seperate them for a joke page :)-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>room_of_dog</title>
 </head>
 <body>
     <script></script>
@@ -15,7 +18,39 @@
         <audio id="audioElement" src="./audio/dogshrine.mp3" loop></audio>
     </body>
 </body>
-<script src="./scripts/audiocontroller.js"></script>
-</html>
+<script>
+const audio = document.getElementById("audioElement");
 
-<!-- THIS IS NOT CUSTOM PAGE #2!!!, I added this just for fun. -->
+const musicButton = document.getElementById("musicButton");
+let isPlaying = false;
+
+musicButton.addEventListener("click", function() {
+  isPlaying = !isPlaying; 
+  if (isPlaying == false) {
+    audioElement.pause();
+    musicButton.src = "./images/404/annoying.png";
+  } else {
+    audioElement.play();
+    musicButton.src = "./images/404/annoying.gif";
+  }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var audio = document.getElementById('audioElement');
+    var hasAlreadyClicked = false;
+
+    function startAudio() {
+        if (hasAlreadyClicked == false) {
+            audio.play();
+            audio.volume = 0.8;
+            document.removeEventListener('click', startAudio);
+            hasAlreadyClicked = true;
+            isPlaying = true;
+            musicButton.src = "./images/404/annoying.gif";
+        }
+    }
+
+    document.addEventListener('click', startAudio);
+});
+</script>
+</html>
