@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The PC Building Society</title>
+    <!-- Include Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Include Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Include custom CSS -->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-    <header><img src="images/Icon.png" id="logo"><h1>The PC Building Society</h1></header>
+    <!-- Header -->
+    <header>
+        <img src="images/Icon.png" id="logo">
+        <h1>The PC Building Society</h1>
+    </header>
 
+    <!-- Navigation -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -23,11 +31,16 @@
         </ul>
     </nav>
 
+    <!-- Main Content -->
     <main>
         <div>
-            <h3>Welcome to the PC Building Society</h3><div><p>Are you a tech enthusiast who dreams of creating your own custom PC? Do you crave the satisfaction of picking out the perfect parts and building a machine that's tailored to your needs? Then look no further than the RGU PC Building Society!</p></div>
+            <h3>Welcome to the PC Building Society</h3>
+            <div>
+                <p>Are you a tech enthusiast who dreams of creating your own custom PC? Do you crave the satisfaction of picking out the perfect parts and building a machine that's tailored to your needs? Then look no further than the RGU PC Building Society!</p>
+            </div>
         </div>
-        <div id = "home-carousel" class="carousel slide" data-bs-ride="caraousel">
+        <!-- Carousel -->
+        <div id="home-carousel" class="carousel slide" data-bs-ride="caraousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/PCParts1.png" class="d-block w-100" alt="PC parts on a table">
@@ -36,6 +49,7 @@
                     <img src="images/PCBuild1.png" class="d-block w-100" alt="Fully built PC with a very expensive 4090 in it">
                 </div>
             </div>
+            <!-- Carousel Controls -->
             <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -47,8 +61,14 @@
         </div>
     </main>
 
-    <aside><h3>Latest Tweets</h3></aside>
+    <!-- Sidebar -->
+    <aside>
+        <h3>Latest Tweets</h3>
+    </aside>
 
-    <footer><p>Copyright Aaron Duncan - 2024</p></footer>
+    <!-- Footer -->
+    <footer>
+        <p>Copyright Aaron Duncan - 2024</p>
+    </footer>
 </body>
 </html>

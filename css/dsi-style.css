@@ -1,17 +1,20 @@
 /* Nintendo DSi Shop Style CSS */
-/* In seperate file to reduce main css file clutter */
+/* In separate file to reduce main CSS file clutter */
 
+/* Define custom font */
 @font-face {
     font-family: NDS-BIOS;
     src: url(../fonts/Nintendo-DS-BIOS.ttf);
 }
 
+/* Body styles */
 body {
     background-color: grey;
     font-family: NDS-BIOS; 
     font-size: x-large; 
 }
 
+/* Header styles */
 header {
     background-color: #fff;
     border-top-left-radius: 10px;
@@ -22,11 +25,13 @@ header {
     width: 100%; 
 }
 
+/* Header link styles */
 header h1 a {
     color: black;
     text-decoration: none;
 }
 
+/* Gallery image styles */
 .gallery-img {
     max-width: 450px;
     min-width: 450px;
@@ -34,32 +39,39 @@ header h1 a {
     min-height: 400px;
 }
 
+/* Image gallery styles */
 #img-gallery {
     padding-top: 10px;
 }
 
+/* Logo styles */
 #logo {
     float: left;
     margin-right: 10px;
 }
 
+/* Heading styles */
 h1 {
     display: inline;
 }
 
+/* Subheading styles */
 h3 {
     font-size: 24pt;
 }
 
+/* Paragraph styles */
 p {
     font-size: 10pt;
 }
 
+/* Product description styles */
 #product-description{
     font-size: x-large;
     padding-right: 20px;
 }
 
+/* Title styles */
 #title {
     display: block;
     text-align: center;
@@ -67,6 +79,7 @@ p {
     margin-bottom: 20px;
 }
   
+/* Page info styles */
 #page-info {
     width: 60%;
     margin: 20px auto;
@@ -74,39 +87,46 @@ p {
     font-size: 1.1em;
 }
 
+/* Main content styles */
 main {
     background-color: #fff;
     border-radius: 10px;
     padding-top: 140px;
 }
 
+/* Aside content styles */
 aside {
     background-color: #fff;
     border-radius: 10px;
 }
 
+/* Footer styles */
 footer {
     background-color: #00aeef;
     border-radius: 10px;
 }
 
+/* Footer paragraph styles */
 footer p {
     font-size: x-large;
 }
 
+/* Navigation styles */
 nav {
     position: fixed; 
     top: 0; 
     width: 100%; 
-    margin-top: 65px; /* Add a top margin */
+    margin-top: 65px;
 }
 
+/* Navigation list styles */
 nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
+/* Navigation list item styles */
 nav li {
     border: 2px solid #fff;
     background-color: #00aeef;
@@ -116,15 +136,18 @@ nav li {
     padding: 16px;
 }
 
+/* Navigation link styles */
 nav li a {
     color: #fff;
     text-decoration: none;
 }
 
+/* Navigation list item hover styles */
 nav li:hover {
     background-color: #0086b3;
 }
 
+/* Music control styles */
 .music-control {
     position: fixed; 
     top: 15px;      
@@ -132,24 +155,28 @@ nav li:hover {
     z-index: 1000;  
 }
   
+/* Music button styles */
 #musicButton {
     width: 40px; 
     height: 40px;
     cursor: pointer;
 }
 
+/* List image styles */
 #list-image {
     display: inline;
     margin-left: 10px;
     padding-bottom: 10px;
 }
 
+/* Product image styles */
 #product-image { 
     padding-right: 20px;
     max-width: 100%;
     height: auto; 
-  }
-  
+}
+
+/* Secondary heading styles */
 h2 {
     display: inline;
 }

@@ -1,7 +1,9 @@
+/* Set the background color of the body */
 body {
     background-color: #808080;
 }
 
+/* Style the header */
 header {
     background-color: #FFFFFF;
     border-top-left-radius: 10px;
@@ -9,21 +11,22 @@ header {
     padding: 10px;
 }
 
+/* Style the gallery images */
 .gallery-img {
-    max-width: 450px;
-    min-width: 450px;
-    max-height: 400px;
-    min-height: 400px;
+    width: 100%;
 }
 
+/* Style the image gallery container */
 #img-gallery {
     padding-top: 10px;
 }
 
+/* Style the rows in the image gallery */
 #img-gallery .row {
     margin-bottom: 10px;
 }
 
+/* Style the logo image */
 #logo {
     height: 50px;
     width: 50px;
@@ -31,38 +34,47 @@ header {
     margin-right: 10px;
 }
 
+/* Style the heading */
 h1 {
     display: inline;
 }
 
+/* Style the subheading */
 h3 {
     font-size: 24pt;
 }
 
+/* Style the paragraphs */
 p {
     font-size: 10pt;
 }
 
+/* Style the main content area */
 main {
     background-color: #FFFFFF;
     border-radius: 10px;
 }
 
+/* Style the sidebar */
 aside {
     background-color: #FFFFFF;
     border-radius: 10px;
 }
 
+/* Style the footer */
 footer {
     background-color: #FF0000;
     border-radius: 10px;
 }
+
+/* Style the navigation menu */
 nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
+/* Style the navigation menu items */
 nav li {
     border: 2px solid #FFFFFF; /* Accent Colour */
     background-color: #FF0000; /* Main Colour */
@@ -72,63 +84,75 @@ nav li {
     padding: 16px;
 }
 
+/* Style the navigation menu links */
 nav li a {
     color: #FFFFFF; /* Secondary Text Colour */
     text-decoration: none;
 }
 
+/* Style the navigation menu item on hover */
 nav li:hover {
     background-color: #8B0000; /* Selection Colour */
 }
 
+/* Style the active navigation menu item */
 .active {
     background-color: #FFFFFF; /* Interactive Feature Colour */
 }
 
+/* Style the table */
 table {
     font-family: Verdana, Geneva, sans-serif;
     border-collapse: collapse;
 }
 
+/* Style the table cells and headers */
 table td, table th {
     border: 2px solid #F0F0F0;
 }
 
+/* Style the even rows in the table */
 table tr:nth-child(even) {
     background-color: #F2F2F2;
 }
 
+/* Style the table rows on hover */
 table tr:hover {
     background-color: #FF0000; /* Main Colour */
 }
 
+/* Style the table headers */
 table th {
     background-color: #FF0000; /* Main Colour */
     color: white;
 }
 
+/* Style the contact container */
 .contact-container {
     display: flex;
 }
 
+/* Style the right column in the contact container */
 #right-col {
     width: 55%; 
     overflow: hidden;
     margin: 20px;
 }
 
+/* Style the iframe in the right column */
 #right-col iframe {
     max-width: 600px;
     height: 300px;
     margin: 0 auto;
 }
 
+/* Style the left column in the contact container */
 #left-col {
     flex: 0 0 45%;
     margin-right: 20px;
 }
 
-
+/* Style the left column */
 #left-col {
     border: 1px solid #000000;
     margin: 20px;
@@ -136,26 +160,31 @@ table th {
     float: left;
 }
 
+/* Style the form */
 form {
     margin-bottom: 20px;
 }
 
+/* Style the fieldset */
 fieldset {
     border: none;
     padding: 0;
     margin: 0;
 }
 
+/* Style the legend */
 legend {
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+/* Style the labels */
 label {
     display: block;
     margin-bottom: 5px;
 }
 
+/* Style the input fields */
 input[type="text"],
 input[type="email"],
 input[type="comment"],
@@ -166,6 +195,7 @@ input[type="file"] {
     width: 100%;
 }
 
+/* Style the submit button */
 button[type="submit"] {
     background-color: #FF0000;
     color: #FFFFFF;
@@ -174,6 +204,7 @@ button[type="submit"] {
     cursor: pointer;
 }
 
+/* Style the submit button on hover */
 button[type="submit"]:hover {
     background-color: #8B0000;
 }
