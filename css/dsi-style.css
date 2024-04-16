@@ -9,7 +9,7 @@
 
 /* Body styles */
 body {
-    background-color: grey;
+    background-color: #F5F5F5;
     font-family: NDS-BIOS; 
     font-size: x-large; 
 }
@@ -53,7 +53,7 @@ p {
 }
 
 /* Product description styles */
-#product-description{
+.product-description{
     font-size: x-large;
     padding-right: 20px;
 }
@@ -95,6 +95,7 @@ footer {
 
 /* Footer paragraph styles */
 footer p {
+    color: #fff;
     font-size: x-large;
 }
 
@@ -151,14 +152,14 @@ nav li:hover {
 }
 
 /* List image styles */
-#list-image {
+.list-image {
     display: inline;
     margin-left: 10px;
     padding-bottom: 10px;
 }
 
 /* Product image styles */
-#product-image { 
+.product-image { 
     padding-right: 20px;
     max-width: 100%;
     height: auto; 

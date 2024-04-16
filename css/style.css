@@ -11,10 +11,50 @@ header {
     padding: 10px;
 }
 
+#about-us p {
+    font-size: 15px;
+}
+
 /* Style the carousel images */
 .carousel-item img {
     width: 100%;
     height: 700px;
+}
+
+/* Style the news section */
+.news-article {
+    display: flex;
+    border: 2px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Define the size and spacing of the news image */
+.news-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+
+/* Define the layout and spacing of the news content */
+.article-content {
+    flex-grow: 1;
+}
+
+/* Define the spacing of the headline */
+.article-content h3 {
+    margin-top: 10px;
+    font-size: 24pt;
+}
+
+/* Define the spacing of the text */
+.article-content p {
+    margin-top: 20px;
+    font-size: 15pt;
 }
 
 /* Position the form to the right of the header */
@@ -307,4 +347,58 @@ table th {
 /* Style the submit button on hover */
 #event-form button:hover {
     background-color: #0056b3;
+}
+
+.rules-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .rules-container h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+/* Style the rule boxes */
+.rule-box {
+    display: flex;
+    border: 2px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Define the size and spacing of the news image */
+.rules-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+
+.rule-iframe {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+
+/* Define the layout and spacing of the news content */
+.rule-content {
+    flex-grow: 1;
+}
+
+/* Define the spacing of the headline */
+.rule-content h3 {
+    margin-top: 10px;
+    font-size: 24pt;
+}
+
+/* Define the spacing of the text */
+.rule-content p {
+    margin-top: 20px;
+    font-size: 15pt;
 }

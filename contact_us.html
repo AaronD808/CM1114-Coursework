@@ -12,11 +12,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Include custom CSS -->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/Icon.png">
 </head>
 <body>
     <!-- Header section -->
     <header>
-        <img src="images/Icon.png" id="logo">
+        <img src="images/Icon.png" id="logo" alt="Website Logo">
         <h1>The PC Building Society</h1>
     </header>
 
@@ -24,12 +26,12 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="rules.html">Society Rules</a></li>
             <li><a href="img_gallery.html">Gallery</a></li>
             <li><a href="current_members.html">Current Members</a></li>
             <li><a href="event_calendar.html">Events</a></li>
             <li><a href="contact_us.html">Contact Us</a></li>
             <li><a href="suggested_builds.html">PC Buying Guide</a></li>
-            <li><a href="suggested_builds.html">Custom Page #2</a></li>
         </ul>
     </nav>
 
@@ -48,7 +50,7 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required><br>
 
-                    <label for="membership">Membership Status:</label>
+                    <label for="member">Membership Status:</label>
                     <label for="member">
                         <input type="radio" id="member" name="membership" value="member" required> Member
                     </label>
@@ -57,7 +59,7 @@
                     </label><br>
 
                     <label for="comment">Comments: </label>
-                    <input type="comment" id="comment" name="comment" required><br>
+                    <input type="text" id="comment" name="comment" required><br>
 
                     <label for="attachments">File Attachments:</label>
                     <input type="file" id="attachments" name="attachments" multiple><br>
@@ -70,7 +72,7 @@
 
         <!-- Twitter feed -->
         <div id="right-col">
-            <a class="twitter-timeline" data-lang="en" data-width="800" data-height="600" href="https://twitter.com/HardwareUnboxed?ref_src=twsrc%5Etfw">Tweets by HardwareUnboxed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            <a class="twitter-timeline" data-lang="en" data-width="800" data-height="600" href="https://twitter.com/HardwareUnboxed?ref_src=twsrc%5Etfw">Tweets by HardwareUnboxed</a> <script async src="https://platform.twitter.com/widgets.js"></script> 
         </div>
     </div>
     </main>

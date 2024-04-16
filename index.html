@@ -14,11 +14,13 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <!-- Include login script -->
     <script src="./scripts/login.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/Icon.png">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <img src="images/Icon.png" id="logo">
+        <img src="images/Icon.png" id="logo" alt="Website Logo">
         <h1>The PC Building Society</h1>
         <form id="login-form">
             <fieldset id="login_fieldset">
@@ -27,7 +29,6 @@
                 </div>
                 <div>
                     <input type="password" id="password" name="password" placeholder="Password" required>
-                </div>
                 </div>
                 <div>
                     <button type="button" onclick="login();">Login</button>
@@ -40,18 +41,18 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="rules.html">Society Rules</a></li>
             <li><a href="img_gallery.html">Gallery</a></li>
             <li><a href="current_members.html">Current Members</a></li>
             <li><a href="event_calendar.html">Events</a></li>
             <li><a href="contact_us.html">Contact Us</a></li>
             <li><a href="suggested_builds.html">PC Buying Guide</a></li>
-            <li><a href="suggested_builds.html">Custom Page #2</a></li>
         </ul>
     </nav>
 
     <!-- Main Content -->
     <main>
-        <div>
+        <div id="about-us">
             <h3>Welcome to the PC Building Society</h3>
             <div>
                 <p>Are you a tech enthusiast who dreams of creating your own custom PC? Do you crave the satisfaction of picking out the perfect parts and building a machine that's tailored to your needs? Then look no further than the RGU PC Building Society!</p>
@@ -62,9 +63,17 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/PCParts1.png" class="d-block w-100" alt="PC parts on a table">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PC Parts on a table</h5>
+                        <p>might wanna get a case</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/PCBuild1.png" class="d-block w-100" alt="Fully built PC with a very expensive 4090 in it">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Very Expensive Computer</h5>
+                        <p>Wow somebody is rich</p>
+                    </div>
                 </div>
             </div>
             <!-- Carousel Controls -->
@@ -79,9 +88,17 @@
         </div>
     </main>
 
-    <!-- Sidebar -->
+    <!-- Aside -->
     <aside>
-        <h3>Latest News</h3>
+        <br><h2>Latest News</h2>
+        <section class="news-article">
+          <img src="images/Icon.png" class="news-img" alt="News Thumbnail">
+          <div class="article-content">
+            <h3>The PC Building Society Opens!</h3>
+            <p>The PC Building Society is excited to announce its grand opening! After months of planning and preparation, we are finally ready to welcome tech enthusiasts from all walks of life.</p>
+            <p>Join us to build your own custom PCs, learn the latest techniques, and connect with like-minded individuals. Start your PC building journey today!</p>
+          </div>
+        </section>
     </aside>
 
     <!-- Footer -->
