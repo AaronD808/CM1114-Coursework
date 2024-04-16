@@ -4,8 +4,8 @@ const audio = document.getElementById("audioElement");
 // Event listener for the "timeupdate" event of the audio element
 audio.addEventListener("timeupdate", function() {
   const currentTime = audio.currentTime;
-  const loopTime = 66.793; // Hardcoded value for the loop time
-  const loopStart = 5.960; // Hardcoded value for the loop start time
+  const loopTime = 66.793;
+  const loopStart = 5.960;
 
   // If the current time exceeds the loop time, reset the audio to the loop start time and play it
   if (currentTime >= loopTime) {
@@ -33,6 +33,9 @@ musicButton.addEventListener("click", function() {
   }
 });
 
+
+//I used this stackoverflow thread while looking up how to start audio on click
+//https://stackoverflow.com/questions/68594620/automatically-play-audio-object-in-javascript
 document.addEventListener('DOMContentLoaded', function() {
   var audio = document.getElementById('audioElement');
   var hasAlreadyClicked = false;

@@ -31,19 +31,6 @@ header h1 a {
     text-decoration: none;
 }
 
-/* Gallery image styles */
-.gallery-img {
-    max-width: 450px;
-    min-width: 450px;
-    max-height: 400px;
-    min-height: 400px;
-}
-
-/* Image gallery styles */
-#img-gallery {
-    padding-top: 10px;
-}
-
 /* Logo styles */
 #logo {
     float: left;
@@ -102,7 +89,7 @@ aside {
 
 /* Footer styles */
 footer {
-    background-color: #00aeef;
+    background-color: #007BFF;
     border-radius: 10px;
 }
 
@@ -129,7 +116,7 @@ nav ul {
 /* Navigation list item styles */
 nav li {
     border: 2px solid #fff;
-    background-color: #00aeef;
+    background-color: #007BFF;
     list-style-type: none;
     float: left;
     width: 14.28%;
@@ -140,11 +127,12 @@ nav li {
 nav li a {
     color: #fff;
     text-decoration: none;
+    font-size: 20pt
 }
 
 /* Navigation list item hover styles */
 nav li:hover {
-    background-color: #0086b3;
+    background-color: #0056b3;
 }
 
 /* Music control styles */

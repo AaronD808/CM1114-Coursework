@@ -1,13 +1,3 @@
-<!--
-    This HTML file represents a webpage for a (fake) PC shop's suggested builds.
-    It includes the necessary HTML structure, CSS styling, and JavaScript functionality.
-    External CSS and JavaScript files are linked for styling and functionality.
-    The page consists of a header, navigation menu, main content section, and footer.
-    The header contains the "shop's" logo, name, and a music toggle button.
-    The navigation menu provides links to other pages of the website.
-    The main section displays a list of prebuilt PC options with their details and descriptions.
-    The footer includes copyright information and credits.
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pretendo PC Shop</title>
     
-    <!-- External CSS and JavaScript libraries -->
+    <!-- Include Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Include Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Include custom CSS -->
     <link rel="stylesheet" type="text/css" href="./css/dsi-style.css">
-    
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/bag.gif">
 </head>
 <body>
     <!-- Header section -->
     <header>
-        <img src="images/bag.gif" id="logo">
+        <img src="images/bag.gif" id="logo" alt="DSi Shop Logo">
         <h1><a href="https://pretendo.network/">Pretendo</a> PC Shop</h1>
         <div class="music-control">
             <img src="images/musicdisabled.png" alt="Music Control" id="musicButton">
@@ -60,28 +51,28 @@
                 <li>
                     <h2>Slightly Used Toshiba Laptop</h2>
                     <img src="./images/freeprice.png" alt="Pricing Image" id="list-image"><br>
-                    <img src="./images/freepc.png" alt="Build 1" id="product-image">
+                    <img src="./images/freepc.png" alt="Build Free" id="product-image">
                     <h3>Uhhh.... no clue to be honest</h3>
                     <p id ="product-description">This laptop has seen better days... and frankly, those days are long gone.  It might not turn on, some of the screen is missing, and who knows what's going on with the keyboard. BUT, it's free! So if you're a tinkerer, love a challenge, or need spare parts, this could be your next PC.</p>
                 </li>
                 <li>
                     <h2>Yeyian Yumi</h2>
                     <img src="./images/budgetprice.png" alt="Pricing Image" id="list-image"><br>
-                    <img src="./images/PCGuideBudget.png" alt="Build 2" id="product-image">
+                    <img src="./images/PCGuideBudget.png" alt="Build Budget" id="product-image">
                     <h3>Intel Core i5 12400F | Nvidia GeForce RTX 4060 | 16GB DDR4-3200 | 1TB SSD</h3>
                     <p id ="product-description">This budget-friendly PC packs a serious punch! Equipped with an Intel Core i5 12400F processor and an NVIDIA GeForce RTX 4060 graphics card, it delivers smooth performance for gaming and everyday tasks.  The ample 16GB of RAM and spacious 1TB SSD ensure fast loading times and plenty of storage. All this for just £800 – a fantastic value for the price-conscious gamer.</p>
                 </li>
                 <li>
                     <h2>ABS Stratos Aqua</h2>
                     <img src="./images/midrangeprice.png" alt="Pricing Image" id="list-image"><br>
-                    <img src="./images/PCGuideMidrange.png" alt="Build 3" id="product-image">
+                    <img src="./images/PCGuideMidrange.png" alt="Build Midrange" id="product-image">
                     <h3>Intel Core i5 14400F | Nvidia GeForce RTX 4060 Ti | 32GB DDR5-6000 | 1TB SSD</h3>
                     <p id ="product-description">This powerhouse features the reliable Intel Core i5 14400F processor, future-proof NVIDIA RTX 4060 Ti graphics, a generous 32GB of DDR5-6000 RAM, and a spacious 1TB SSD. Enjoy smooth performance and stunning visuals.</p>
                 </li>
                 <li>
                     <h2>Corsair Vengeance i7400</h2>
                     <img src="./images/premiumprice.png" alt="Pricing Image" id="list-image"><br>
-                    <img src="./images/PCGuidePremium.png" alt="Build 4" id="product-image">
+                    <img src="./images/PCGuidePremium.png" alt="Build Premium" id="product-image">
                     <h3>Intel Core i9 13900K | Nvidia RTX 4090 | 64GB RAM | 2TB SSD</h3>
                     <p id ="product-description">The Corsair Vengeance i7400 is a gamer's dream machine. Dominate the latest titles with its cutting-edge Intel Core i9 13900K processor and the peerless NVIDIA RTX 4090 graphics card. 64GB of RAM ensures seamless multitasking and lightning-fast load times, while the massive 2TB SSD provides ample space for your game library and media. </p>
                 </li>

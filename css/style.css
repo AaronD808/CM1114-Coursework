@@ -1,6 +1,6 @@
 /* Set the background color of the body */
 body {
-    background-color: #808080;
+    background-color: #F5F5F5;
 }
 
 /* Style the header */
@@ -11,9 +11,51 @@ header {
     padding: 10px;
 }
 
+/* Style the carousel images */
+.carousel-item img {
+    width: 100%;
+    height: 700px;
+}
+
+/* Position the form to the right of the header */
+#login-form {
+    float: right;
+}
+
+/* Style the form field containers */
+#login-form div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Style the input fields */
+#login-form input[type="password"],
+#login-form input[type="email"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+/* Style the submit button */
+#login-form button {
+    background-color: #0059ff;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+/* Style the submit button on hover */
+#login-form button:hover {
+    background-color: #0056b3;
+}
+
 /* Style the gallery images */
 .gallery-img {
     width: 100%;
+    height: 300px;
+    filter: grayscale(100%) blur(2px);
 }
 
 /* Style the image gallery container */
@@ -63,8 +105,13 @@ aside {
 
 /* Style the footer */
 footer {
-    background-color: #FF0000;
+    background-color: #007BFF;
     border-radius: 10px;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 20pt;
 }
 
 /* Style the navigation menu */
@@ -76,8 +123,8 @@ nav ul {
 
 /* Style the navigation menu items */
 nav li {
-    border: 2px solid #FFFFFF; /* Accent Colour */
-    background-color: #FF0000; /* Main Colour */
+    border: 2px solid #FFFFFF;
+    background-color: #007BFF;
     list-style-type: none;
     float: left;
     width: 14.285%;
@@ -86,29 +133,35 @@ nav li {
 
 /* Style the navigation menu links */
 nav li a {
-    color: #FFFFFF; /* Secondary Text Colour */
+    color: #FFFFFF;
     text-decoration: none;
+    font-size: 18pt;
 }
 
 /* Style the navigation menu item on hover */
 nav li:hover {
-    background-color: #8B0000; /* Selection Colour */
+    background-color: #0056b3;
 }
 
 /* Style the active navigation menu item */
 .active {
-    background-color: #FFFFFF; /* Interactive Feature Colour */
+    background-color: #FFFFFF;
 }
 
 /* Style the table */
 table {
     font-family: Verdana, Geneva, sans-serif;
     border-collapse: collapse;
+    width: 100%;
 }
 
 /* Style the table cells and headers */
 table td, table th {
     border: 2px solid #F0F0F0;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    padding: 5px;
 }
 
 /* Style the even rows in the table */
@@ -118,13 +171,14 @@ table tr:nth-child(even) {
 
 /* Style the table rows on hover */
 table tr:hover {
-    background-color: #FF0000; /* Main Colour */
+    background-color: #007BFF;
 }
 
 /* Style the table headers */
 table th {
-    background-color: #FF0000; /* Main Colour */
+    background-color: #007BFF;
     color: white;
+    font-size: 15pt;
 }
 
 /* Style the contact container */
@@ -161,34 +215,39 @@ table th {
 }
 
 /* Style the form */
-form {
+#contact-form {
     margin-bottom: 20px;
 }
 
 /* Style the fieldset */
-fieldset {
+#contact-form fieldset{
     border: none;
     padding: 0;
     margin: 0;
 }
 
 /* Style the legend */
-legend {
+#contact-form legend {
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 /* Style the labels */
-label {
+#contact-form label {
     display: block;
     margin-bottom: 5px;
+    font-size: large;
+}
+
+#contact-form p {
+    font-size: 20px;
 }
 
 /* Style the input fields */
-input[type="text"],
-input[type="email"],
-input[type="comment"],
-input[type="file"] {
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="comment"],
+#contact-form input[type="file"] {
     border: 1px solid #000000;
     padding: 5px;
     margin-bottom: 10px;
@@ -196,15 +255,56 @@ input[type="file"] {
 }
 
 /* Style the submit button */
-button[type="submit"] {
-    background-color: #FF0000;
+#contact-form button[type="button"] {
+    background-color: #007BFF;
     color: #FFFFFF;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    font-size: 20pt;
 }
 
 /* Style the submit button on hover */
-button[type="submit"]:hover {
-    background-color: #8B0000;
+#contact-form button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the event paragraph */
+#event-p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the events form */
+#event-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the form inputs */
+#event-form input[type="text"],
+#event-form input[type="date"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+}
+
+/* Style the submit button */
+#event-form button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 20pt;
+}
+
+/* Style the submit button on hover */
+#event-form button:hover {
+    background-color: #0056b3;
 }
