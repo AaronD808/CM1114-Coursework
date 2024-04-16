@@ -151,11 +151,11 @@ nav li:hover {
     cursor: pointer;
 }
 
-/* List image styles */
-.list-image {
+/* Styles all pricing images */
+img[alt="Pricing Image"] { 
     display: inline;
     margin-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
 }
 
 /* Product image styles */
